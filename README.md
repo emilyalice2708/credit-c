@@ -3,6 +3,7 @@
 ## About
 
 This project was created in C for Harvard Online CS50 Introduction to Computer Science problem set 1.
+This programme prompts the user for a credit card number and reports via the command line whether it is a valid American Express, Master Card or Visa Card number.
 
 ## Course Guidelines
 
