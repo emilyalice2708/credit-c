@@ -5,6 +5,26 @@
 This project was created in C for Harvard Online CS50 Introduction to Computer Science problem set 1.
 This programme prompts the user for a credit card number and reports via the command line whether it is a valid American Express, Master Card or Visa Card number.
 
+## Usage
+
+```
+$ ./credit
+Number: 4003600000000014
+VISA
+```
+```
+$ ./credit
+Number: 4003-6000-0000-0014
+Number: foo
+Number: 4003600000000014
+VISA
+```
+```
+$ ./credit
+Number: 6176292929
+INVALID
+```
+
 ## Course Guidelines
 
 A credit (or debit) card, of course, is a plastic card with which you can pay for goods and services. Printed on that card is a number that’s also stored in a database somewhere, so that when your card is used to buy something, the creditor knows whom to bill. There are a lot of people with credit cards in this world, so those numbers are pretty long: American Express uses 15-digit numbers, MasterCard uses 16-digit numbers, and Visa uses 13- and 16-digit numbers. And those are decimal numbers (0 through 9), not binary, which means, for instance, that American Express could print as many as 10^15 = 1,000,000,000,000,000 unique cards! (That’s, um, a quadrillion.)
